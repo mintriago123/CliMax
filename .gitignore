@@ -1,6 +1,7 @@
 # GENERAL
 .env
 .env.*
+!**/.env.example
 *.log
 *.swp
 *.swo
@@ -18,7 +19,7 @@ build/
 # LARAVEL
 vendor/
 storage/
-bootstrap/cache/
+**/bootstrap/cache/
 
 # DATABASE
 *.sql
